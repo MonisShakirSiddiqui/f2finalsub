@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+#root {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#myh3Id {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.inputDiv {
+    margin-bottom: 20px;
+}
+
+.ourInputs {
+    margin-bottom: 10px;
+}
+
+.ourInputs label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.inputByuser {
+    width: calc(100% - 10px);
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#btnadd {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.message {
+    color: red;
+    margin-bottom: 20px;
+}
+
+.result {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+#headingh5 {
+    margin-bottom: 10px;
+}
+
+.liofEmployee {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.listOfEmployees span {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.my-btn-class {
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
